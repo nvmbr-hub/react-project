@@ -1,16 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
 
 
-const Header = () => {
-  return (
-    <div className="header">
-      <a>HOME</a>
-      <a>FEED</a>
-      <a>CONTACT</a>
-    </div>
-  )
-}
 
 const App = () => {
   return (

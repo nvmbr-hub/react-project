@@ -1,9 +1,9 @@
+import React from "react";
+import logo from "./logo.png"
 const Header = () => {
     return (
-      <div className="header">
-        <a>HOME</a>
-        <a>FEED</a>
-        <a>CONTACT</a>
+      <div className="app-header">
+        <img src={logo} />
       </div>
     )
   }

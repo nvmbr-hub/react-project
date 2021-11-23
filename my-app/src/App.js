@@ -1,21 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
+import Content from './Content';
+import Footer from './Footer';
+import Nav from './Nav';
 
 
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app-wrapper">
       <Header />
-      <div>
-        <ul>
-          <li>css</li>
-          <li>html</li>
-          <li>js</li>
-          <li>react</li>
-        </ul>
-      </div>
+      <Nav />
+      <Content />
+      <Footer />
     </div>
   )
 }
